@@ -11,6 +11,9 @@
 		CCBC8165291D0F5300EC8C17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC8164291D0F5300EC8C17 /* ContentView.swift */; };
 		CCBC8167291D0F5400EC8C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBC8166291D0F5400EC8C17 /* Assets.xcassets */; };
 		CCBC816A291D0F5400EC8C17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBC8169291D0F5400EC8C17 /* Preview Assets.xcassets */; };
+		CCBC8172291D109E00EC8C17 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC8171291D109E00EC8C17 /* Coffee.swift */; };
+		CCBC8175291D116300EC8C17 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC8174291D116300EC8C17 /* Home.swift */; };
+		CCBC8177291D121400EC8C17 /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC8176291D121400EC8C17 /* CoffeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CCBC8164291D0F5300EC8C17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CCBC8166291D0F5400EC8C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCBC8169291D0F5400EC8C17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCBC8171291D109E00EC8C17 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		CCBC8174291D116300EC8C17 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CCBC8176291D121400EC8C17 /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		CCBC8161291D0F5300EC8C17 /* CoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				CCBC8173291D114200EC8C17 /* Views */,
+				CCBC8170291D109200EC8C17 /* Models */,
 				CCBC8162291D0F5300EC8C17 /* CoffeeAppApp.swift */,
 				CCBC8164291D0F5300EC8C17 /* ContentView.swift */,
 				CCBC8166291D0F5400EC8C17 /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				CCBC8169291D0F5400EC8C17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCBC8170291D109200EC8C17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC8171291D109E00EC8C17 /* Coffee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCBC8173291D114200EC8C17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC8174291D116300EC8C17 /* Home.swift */,
+				CCBC8176291D121400EC8C17 /* CoffeeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +164,9 @@
 			files = (
 				CCBC8165291D0F5300EC8C17 /* ContentView.swift in Sources */,
 				CCBC8163291D0F5300EC8C17 /* CoffeeAppApp.swift in Sources */,
+				CCBC8175291D116300EC8C17 /* Home.swift in Sources */,
+				CCBC8172291D109E00EC8C17 /* Coffee.swift in Sources */,
+				CCBC8177291D121400EC8C17 /* CoffeeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
